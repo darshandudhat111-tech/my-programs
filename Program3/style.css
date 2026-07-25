@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+}
+
+button{
+    display: block;
+    margin: auto;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 8px;
+    background-color: #28a745;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #218838;
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+#users{
+    width: 80%;
+    margin: 30px auto;
+}
+
+.user-card{
+    background: white;
+    border-left: 6px solid #667eea;
+    padding: 18px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.user-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.user-card p{
+    margin: 8px 0;
+    font-size: 17px;
+    color: #333;
+}
+
+.user-card p:first-child{
+    font-weight: bold;
+    color: #4b3ca7;
+}
+
+hr{
+    margin-top: 12px;
+    border: none;
+    border-top: 1px solid #ddd;
+}
