@@ -4,6 +4,8 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import Program4 from './Component/Prog4'
+import Program5 from './Component/Prog5'
+import Program6 from './Component/Prog6'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +14,12 @@ function App() {
     <>
       <div>
         <Program4 />
+      </div>
+      <div>
+        <Program5 />
+      </div>
+      <div>
+        <Program6 />
       </div>
     </>
   )
