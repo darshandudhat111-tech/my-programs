@@ -13,6 +13,7 @@ import SimpleCalc from "./page/SimpleCalc";
 import Program6 from "./page/Prog6";
 import Program5 from "./page/Prog5";
 import Program4 from "./page/Prog4";
+import UserList from "./page/UserList";
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
             <Route path="/Prog4" element={<Program4 />} />
             <Route path="/Prog5" element={<Program5 />} />
             <Route path="/Prog6" element={<Program6 />} />
+            <Route path="/UserList" element={<UserList />} />
         </Routes>
       </BrowserRouter>
   )

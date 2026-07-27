@@ -44,6 +44,11 @@ function Home() {
           <p>Simple Calculator</p>
         </Link>
 
+        <Link to="/UserList" className="card">
+          <h2>P8</h2>
+          <p>Fetch Users API</p>
+        </Link>
+
       </div>
 
     </div>
