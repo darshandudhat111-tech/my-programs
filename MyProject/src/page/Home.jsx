@@ -50,6 +50,16 @@ function Home() {
           <p>UseContext</p>
         </Link>
 
+        <Link to="/Clock" className="card">
+          <h2>P9</h2>
+          <p>Clock</p>
+        </Link>
+
+        <Link to="/Analogclock" className="card">
+          <h2>P10</h2>
+          <p>Analog Clock</p>
+        </Link>
+
       </div>
 
     </div>

@@ -13,6 +13,8 @@ import Program5 from "./page/Prog5";
 import Program4 from "./page/Prog4";
 import UserList from "./page/UserList";
 import College from "./page/College";
+import Clock from "./page/Clock";
+import AnalogClock from "./page/AnalogClock";
 
 export const usercontect = createContext();
 
@@ -45,6 +47,8 @@ function App() {
                </usercontect.Provider>
             } 
             />
+            <Route path="/Clock" element={<Clock />}/>
+            <Route path="/Analogclock" element={<AnalogClock />}/>
         </Routes>
       </BrowserRouter>
   )
