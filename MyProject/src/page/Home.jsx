@@ -39,14 +39,15 @@ function Home() {
           <p>Todo</p>
         </Link>
 
-        <Link to="/simplecalc" className="card">
-          <h2>P7</h2>
-          <p>Simple Calculator</p>
-        </Link>
 
         <Link to="/UserList" className="card">
-          <h2>P8</h2>
+          <h2>P7</h2>
           <p>Fetch Users API</p>
+        </Link>
+
+        <Link to="/College" className="card">
+          <h2>P8</h2>
+          <p>UseContext</p>
         </Link>
 
       </div>
